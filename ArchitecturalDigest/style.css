@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 /***********/
@@ -23,11 +24,10 @@
     background-color: white;
 }
 
-h1 {
-    font-size: 2.5rem;
-    font-family: Bodoni Moda, 'Times New Roman', Times, serif;
-    padding-left: 15rem;
+#navbar img {
+    padding-left: 18rem;
     cursor: pointer;
+    height: 30px;
 }
 
 /* LEFT NAV */
@@ -53,7 +53,6 @@ h1 {
     border: none;
     color: white;
     background-color: black;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight:500;
     letter-spacing: 0.1rem;
     cursor: pointer;
@@ -67,7 +66,6 @@ h1 {
 #rightNav a {
     text-decoration: none;
     color: black;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
 }
 
@@ -110,7 +108,6 @@ h1 {
 }
 
 #subNavbar a {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     text-decoration: none;
     color: black;
@@ -188,3 +185,58 @@ h1 {
     cursor: pointer;
 }
 
+#main-content {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    margin-top: 50px;
+}
+
+#main-content-left {
+    display: block;
+    border-right: 1px solid #ddd;
+}
+
+#main-content-right {
+    display: block;
+    border-left: 1px solid #ddd;
+}
+
+#main-content img {
+
+}
+
+.left-card img {
+    display: block;
+    width: 95%;
+}
+
+.center-card img {
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+.right-card img {
+    display: block;
+    width: 95%;
+    /* float: right; */
+}
+
+.side-card h3 {
+    margin-top: 1rem;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.side-card hr {
+    border: none;
+    height: 1px;
+    width: 5rem;
+    background-color: #DDD;  /* Modern Browsers */
+    margin: 1rem 0 1rem 0;
+}
+
+.side-card p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
