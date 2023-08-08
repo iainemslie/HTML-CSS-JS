@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    box-shadow: 0px 5px 6px #DDD;
+    box-shadow: 0px 3px 3px #EFEFEF;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -85,7 +85,7 @@
     top: 60px;
     border-top: 1px solid #DDD;
     height: 50px;
-    box-shadow: 0px 5px 6px #DDD;
+    box-shadow: 0px 3px 3px #EFEFEF;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -199,10 +199,15 @@
 #main-content-right {
     display: block;
     border-left: 1px solid #ddd;
+    
 }
 
-#main-content img {
+.left-card {
+    margin-bottom: 4rem;
+}
 
+.left-card h3 {
+    width: 90%;
 }
 
 .left-card img {
@@ -210,17 +215,32 @@
     width: 95%;
 }
 
-.center-card img {
+.center-card > * {
     display: block;
     width: 95%;
     margin: auto;
 }
 
-.right-card img {
+#main-content-center h3 {
+    font-size: 2rem;
+}
+
+.center-card hr {
+    display: inline-block;
+    transform: translateX(20px);
+}
+
+.right-card > * {
     display: block;
     width: 95%;
-    /* float: right; */
+    float: right;
 }
+
+.right-card hr {
+    float: none;
+    transform: translateX(20px);
+}
+
 
 .side-card h3 {
     margin-top: 1rem;
@@ -239,4 +259,145 @@
 .side-card p {
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
+}
+
+/***********/
+/* TRENDING */
+/***********/
+
+#trending-background {
+    margin-top: 8rem;
+    background-color: #F5F5F5;
+}
+
+#trending {
+    text-align: center;
+}
+
+#trending h4 {
+    padding: 1rem 0 1rem 0;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+#trending hr {
+    border: none;
+    height: 1px;
+    background-color: #DDD;
+}
+
+#trending-cards {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+}
+
+.trending-img {
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+}
+
+.trending-card {
+    display: flex;
+}
+
+.trending-category {
+    text-align: left;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+
+.trending-header {
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.trending-author {
+    text-align: left;
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 0.6rem;
+    font-size: 0.8rem;
+}
+
+/*****************/
+/* VIDEO SECTION */
+/*****************/
+
+#video-section {
+    background-color: black;
+    margin-top: 14rem;
+    margin-bottom: 8rem;
+}
+
+#legend-video {
+    outline: none;
+    display: block;
+    margin: auto;
+}
+
+
+/*****************/
+/* AD IT YOURSELF */
+/*****************/
+
+#ad-it-yourself {
+    padding-bottom: 4rem;
+}
+
+#ad-it-yourself h2 {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    font-weight: 200;
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+#ad-it-yourself hr {
+    border: none;
+    height: 1px;
+    background-color: #DDD;
+}
+
+#ad-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.ad-card {
+    margin: 0 1rem 0 1rem;
+}
+
+.ad-card img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.ad-card h3 {
+    padding: 1rem 0 1rem 0;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    font-weight: 200;
+    height: 8rem;
+}
+
+.ad-card hr {
+    border: none;
+    height: 1px;
+    width: 5rem;
+    background-color: #DDD;  /* Modern Browsers */
+    margin: 1rem 0 1rem 0;
+}
+
+.ad-card h5 {
+    font-weight: 300;
+    bottom: 1rem;
+    height: 3rem;
 }

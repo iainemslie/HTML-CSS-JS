@@ -2,6 +2,11 @@ import os, re
 import requests
 from bs4 import BeautifulSoup as bs
 
+"""
+Gets all the image tags from AD and downloads the href image
+Some image paths are relative so we prepend them
+"""
+
 r = requests.get('https://www.architecturaldigest.com/')
 soup = bs(r.content, features='html.parser')
 
