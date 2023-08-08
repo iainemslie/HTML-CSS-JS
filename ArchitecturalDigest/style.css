@@ -443,10 +443,12 @@
     font-size: 1.1rem;
 }
 
-/* NEWS & VIEWS */
+/*****************/
+/* NEWS & VIEWS  */
+/*****************/
 
 #news-and-views {
-    padding-bottom: 4rem;
+    padding-bottom: 12rem;
 }
 
 #news-and-views h2 {
@@ -461,4 +463,43 @@
     border: none;
     height: 1px;
     background-color: #DDD;
+}
+
+/*****************/
+/* STORY SECTION */
+/*****************/
+
+.story-card {
+    display: flex;
+    padding-bottom: 4rem;
+    width: 74%;
+}
+
+.story-card img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    padding-right: 2rem;
+}
+
+.story-card h4 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-bottom: 0.3rem;
+    margin-top: 0.8rem;
+}
+
+.story-card h2 {
+    font-weight: 200;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+.story-card h2:hover {
+    text-decoration: underline;
+}
+
+.story-card p {
+    font-size: 0.8rem;
+
 }
