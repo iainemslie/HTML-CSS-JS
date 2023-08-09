@@ -132,7 +132,7 @@
 /***********/
 
 .container {
-    width: 80%;
+    width: 78%;
     margin: auto;
 }
 
@@ -230,6 +230,14 @@
     transform: translateX(20px);
 }
 
+.right-card {
+    padding-bottom: 4rem;
+}
+
+#right-card-top {
+    margin-bottom: 120px;
+}
+
 .right-card > * {
     display: block;
     width: 95%;
@@ -246,6 +254,11 @@
     margin-top: 1rem;
     font-weight: 200;
     font-size: 1.6rem;
+}
+
+.side-card h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .side-card hr {
@@ -497,9 +510,81 @@
 
 .story-card h2:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .story-card p {
     font-size: 0.8rem;
 
+}
+
+/*****************/
+/* FOOTER        */
+/*****************/
+
+footer {
+    background-color: #333;
+    height: 500px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#footer-left {
+    width: 50%;
+}
+
+#footer-left img {
+    width: 50px;
+    margin-top: 4rem;
+}
+
+#footer-left p {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    width: 78%;
+    margin-top: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-icons {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.footer-icon {
+    cursor: pointer;
+}
+
+#footer-right {
+    width: 50%;
+    display: flex;
+}
+
+.footer-column {
+    margin-right: 12rem;
+}
+
+.footer-column h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1.8rem;
+}
+
+.footer-column h6 {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.footer-column h6:hover {
+    text-decoration: underline;
 }
