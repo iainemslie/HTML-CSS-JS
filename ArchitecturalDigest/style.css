@@ -543,6 +543,7 @@ footer {
 #footer-left img {
     width: 50px;
     margin-top: 4rem;
+    cursor: pointer;
 }
 
 #footer-left p {
@@ -578,13 +579,74 @@ footer {
     font-size: 1.2rem;
     font-weight: 300;
     margin-bottom: 1.8rem;
+    cursor: pointer;
 }
 
 .footer-column h6 {
     font-weight: 300;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 .footer-column h6:hover {
     text-decoration: underline;
+}
+
+
+/******************/
+/* HAMBURGER MENU */
+/******************/
+
+#menu-overlay {
+    display: none;
+}
+
+#menu-overlay.display {
+    display:block;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 5;
+}
+
+#overlay-content {
+    padding-top: 95px;
+    width: 84%;
+    margin: auto;
+}
+
+#overlay-content h1 {
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+
+#overlay-content h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+#overlay-content h4 {
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+#overlay-content h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+#overlay-content hr {
+    border: none;
+    height: 1px;
+    background-color: #AAA;
+}
+
+#overlay-content-extra {
+    margin-top: 2rem;
+    font-size: 0.8rem;
 }
