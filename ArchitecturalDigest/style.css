@@ -249,6 +249,9 @@
     transform: translateX(20px);
 }
 
+.right-card h3 {
+    padding-bottom: 1rem;
+}
 
 .side-card h3 {
     margin-top: 1rem;
