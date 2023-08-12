@@ -159,6 +159,33 @@
     background-color: yellow;
 }
 
+#projects-content {
+    width: 100%;
+    margin: auto;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout */
+#projects-content {
+    display: grid;
+    grid-template-areas: "img img form"
+                         "img-card-1 img-card-2 img-card-3";
+    gap: 2rem;
+}
+
+#projects-img {
+    height: 300px;
+    width: auto;
+    background-color: red;
+    grid-area: img;
+}
+
+#projects-form {
+    height: 300px;
+    width: auto;
+    background-color: yellow;
+    grid-area: form;
+}
+
 #images-section {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -170,10 +197,22 @@
     gap: 2rem;
 }
 
-#img-card {
+.img-card {
     height: 300px;
     width: auto;
     background-color: blue;
+}
+
+#img-card-1 {
+    grid-area: img-card-1;
+}
+
+#img-card-2 {
+    grid-area: img-card-2;
+}
+
+#img-card-3 {
+    grid-area: img-card-3;
 }
 
 #climate-content {
