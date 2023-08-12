@@ -4,7 +4,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Open Sans, Arial, Helvetica, sans-serif;;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: #fff;
 }
 
 .container {
@@ -27,7 +29,7 @@
 }
 
 #navbar:hover {
-    background-color: #333;
+    background-color: #222;
 }
 
 #navbar-items {
@@ -59,6 +61,10 @@
 }
 
 /* Hero */
+
+.hero {
+    cursor: pointer;
+}
 
 .hero video {
     background-color: black;
@@ -111,8 +117,73 @@
     color: #fff;
 }
 
+/* Main Content */
+
 .main-content {
     position: absolute;
     top: 100vh;
-    /* background-color: #222; */
+    width: 100%;
+    height: 100%;
+}
+
+.main-content section {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.main-content h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#news-content {
+    width: 100%;
+    margin: auto;
+}
+
+#news-content {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 2rem;
+}
+
+#news-img {
+    height: 300px;
+    width: auto;
+    background-color: red;
+}
+
+#news-form {
+    height: 300px;
+    width: auto;
+    background-color: yellow;
+}
+
+#images-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#img-content {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 2rem;
+}
+
+#img-card {
+    height: 300px;
+    width: auto;
+    background-color: blue;
+}
+
+#climate-content {
+    display: grid;
+    grid-template-columns: 12fr;
+    gap: 2rem;
+}
+
+#climate-img {
+    height: 300px;
+    width: auto;
+    background-color: red;
 }
