@@ -1,0 +1,9 @@
+https://download-video.akamaized.net/v2-1/playback/31ea2e34-7384-4493-93b1-0a710ea153dc/328534c9-d883ea87?__token__=st=1691844009~exp=1691858409~acl=%2Fv2-1%2Fplayback%2F31ea2e34-7384-4493-93b1-0a710ea153dc%2F328534c9-d883ea87%2A~hmac=bf481b760ec2984af6ba037552da50e31b5597ba5d5e1d82b4ccf3ea0e8a9011&r=dXMtZWFzdDE%3D
+
+https://download-video.akamaized.net/v2-1/playback/0a5b1673-9b79-4783-8e22-f3ddfd7e1a8b/45e4b22d-40f36dea?__token__=st=1691844085~exp=1691858485~acl=%2Fv2-1%2Fplayback%2F0a5b1673-9b79-4783-8e22-f3ddfd7e1a8b%2F45e4b22d-40f36dea%2A~hmac=f15f4c4f5932174e7a0b0f9259217e03e15acd14ede3921f7e7cca5ec40c5a29&r=dXMtZWFzdDE%3D
+
+https://download-video.akamaized.net/v2-1/playback/5ff74a54-5a29-4128-b9a7-b7049c3129a2/a0bafd85-9369f8fd?__token__=st=1691844100~exp=1691858500~acl=%2Fv2-1%2Fplayback%2F5ff74a54-5a29-4128-b9a7-b7049c3129a2%2Fa0bafd85-9369f8fd%2A~hmac=27fa4db7af75e42f696504f98f803470b302f34d6d7ec0a5524581bfab8f9e6c&r=dXMtd2VzdDE%3D
+
+https://download-video.akamaized.net/v2-1/playback/e0a53c54-7010-4f23-839a-8badd8b12b99/c93a5604-de100f45?__token__=st=1691844118~exp=1691858518~acl=%2Fv2-1%2Fplayback%2Fe0a53c54-7010-4f23-839a-8badd8b12b99%2Fc93a5604-de100f45%2A~hmac=48fbbed348622219293c593751fbbef99ab9610c6ffd822f7995d5099921a8ac&r=dXMtZWFzdDE%3D
+
+https://download-video.akamaized.net/v2-1/playback/5fbe13a4-12c2-4e1b-ade8-fe089fcf5648/cd38807b-11f10f23?__token__=st=1691844139~exp=1691858539~acl=%2Fv2-1%2Fplayback%2F5fbe13a4-12c2-4e1b-ade8-fe089fcf5648%2Fcd38807b-11f10f23%2A~hmac=c9adce68c26d3c1197b97dfd31834ce45c09a467d7745322cdf326e47930dc0e&r=dXMtZWFzdDE%3D
